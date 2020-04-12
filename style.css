@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100%;
   }
   html {
     font-size: 62.5%;
@@ -39,7 +40,8 @@
     text-decoration: none;
   }
   button {
-    padding: 2rem 6rem;
+    width: 200px;
+    padding: 1rem 6rem;
     background: #3a5372;
     border: none;
     color: white;
@@ -102,6 +104,59 @@
       margin-top:2rem;
   }
 
+  /* about section */
+  .about{
+min-height: 100vh;
+background: linear-gradient(rgba(0, 0, 0, 0.815), transparent), url("/images/kirsten-lachance-KPwC1b5AUDA-unsplash.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+margin: 1rem 0 0;
+}
+.about-header{
+    width: 90%;
+    margin: auto;
+}
+
+.about-header p{
+    max-width: 400px;
+}
+
+/* options */
+
+.options-header{
+background:#343c44;
+padding: 3rem;
+min-height: 30vh;
+display: flex;
+align-items: center;
+color:white;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+.options-header h2, h3{
+max-width: 600px;
+}
+
+.cards{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards img{
+    max-width: 600px;
+}
+
+.card{
+    flex: 1 1 25rem;
+    margin:1rem;
+}
+
   /* Media Query */
 @media screen and (max-width: 932px) {
     html {
@@ -113,4 +168,8 @@
     .logo {
       padding: 2rem;
     }
+    .about-header{
+        margin: 0 2rem;
+    }
+   
 }
