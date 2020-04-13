@@ -181,8 +181,24 @@ max-width: 600px;
   justify-content: center;
 }
 
+footer{
+  color:white;
+  background-color:#131c27;
+}
+.footer-wrapper{
+  display: flex;
+padding: 2rem;
+min-height: 10vh;
+width: 90%;
+margin: auto;
+align-items: center;
+}
 
-
+.footer-wrapper h5{
+  display:flex;
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;
+}
 
   /* Media Query */
 @media screen and (max-width: 500px){
